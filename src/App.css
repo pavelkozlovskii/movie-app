@@ -1,0 +1,19 @@
+@import './fonts/fonts.css';
+
+.app * {
+  font-family: 'Inter-UI', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 1140px;
+  margin-inline: auto;
+  padding: 30px;
+}
+
+.tabs {
+  width: 100%;
+}
